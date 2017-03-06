@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UtiPod_Example' do
+  pod 'UtiPod', :path => '../'
+
+  target 'UtiPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
