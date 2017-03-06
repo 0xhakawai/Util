@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20114210A65144662962BDBE47DD0E19 /* UtiPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B478A7C69E0A1F3504844A6C89EBCA0 /* UtiPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4931C66B87941082B7E6242BA5D434E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		57CA8EBDC1950E237E3E0EE678B36553 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA814394E3C031CBA820369DD71989 /* ReplaceMe.swift */; };
+		74D1DFA2F521DA5D450D4C8E13754500 /* Pods-UtiPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AA8206CFA2BE432DE64F7C6DBFF913 /* Pods-UtiPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		818DDDABC8CC7B9C1D1C49C776B71B3A /* Pods-UtiPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9818463560DD60D3536E8314E1F97DD /* Pods-UtiPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8299F8F5CC85CBAD4569DB04B0E4119A /* Pods-UtiPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A631D248244D7B1C6BE6BD71B76B520C /* Pods-UtiPod_Example-dummy.m */; };
+		97FF84D22329A72382653FF80FFDBD28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		98CB970677779C357EEF15DB16A0075D /* Pods-UtiPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38400A7A3F80ECD977CCB9856AA1179E /* Pods-UtiPod_Tests-dummy.m */; };
+		B01C66F4A2FC29ACB088577863256A67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CE029232CCE276BCC7336BC26D9CD503 /* UtiPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9067300DB340E4A3E84705BB2CDA89A /* UtiPod-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF478919AB7734AC6867C84D20C48F8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26EF684639AC27A5446D2CF993CB2548;
+			remoteInfo = UtiPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		134E214045FA27D6E2B0EFE077B3EF92 /* Pods-UtiPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UtiPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1380513D7668DA370DAA8AD6096C0109 /* Pods-UtiPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UtiPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1C7D55F9E5AE29596384B886CC7CD65D /* Pods-UtiPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UtiPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CACABCD8B54AB86C5CCD4E70FFB3B6A /* Pods-UtiPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UtiPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		1CDEEA8B33F82013E828F4977F1C8CC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EBDCA59FFD794B73689BF33877AA49 /* Pods-UtiPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UtiPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		335479EB342EF8663CA6A4924037BFC9 /* UtiPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UtiPod.modulemap; sourceTree = "<group>"; };
+		38400A7A3F80ECD977CCB9856AA1179E /* Pods-UtiPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UtiPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		3B01BF1CB453AEBD1D0CC8D250805FB4 /* Pods-UtiPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UtiPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46AA8206CFA2BE432DE64F7C6DBFF913 /* Pods-UtiPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UtiPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		4B2BD2580B67AA18706658D5C80271BF /* UtiPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UtiPod.xcconfig; sourceTree = "<group>"; };
+		4B478A7C69E0A1F3504844A6C89EBCA0 /* UtiPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UtiPod-umbrella.h"; sourceTree = "<group>"; };
+		4F179922C28AE86B4528D86DBA02D7B4 /* Pods-UtiPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UtiPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		563CA59FFB53DCEA5ACF805E821D2401 /* Pods-UtiPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UtiPod_Tests.modulemap"; sourceTree = "<group>"; };
+		60E15A1E3F72AFE51097E217D2B82148 /* Pods-UtiPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UtiPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67C1EE7E1423E5AF8535A3A9CCB5BBC3 /* UtiPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UtiPod-prefix.pch"; sourceTree = "<group>"; };
+		78FC53EE4ADFC8A37ECC15052F1D1CBC /* Pods-UtiPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UtiPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8FEEE57AB3C76CF91D02817EED8B07E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91D274FFEF4FB36B2008AA3DE86C8048 /* Pods-UtiPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UtiPod_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A631D248244D7B1C6BE6BD71B76B520C /* Pods-UtiPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UtiPod_Example-dummy.m"; sourceTree = "<group>"; };
+		A9067300DB340E4A3E84705BB2CDA89A /* UtiPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UtiPod-dummy.m"; sourceTree = "<group>"; };
+		C88DF71574EAD32AB91CE88D40CBCEC8 /* Pods_UtiPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UtiPod_Example.framework; path = "Pods-UtiPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDEA814394E3C031CBA820369DD71989 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		CFC1F5354EF7A73CE2F4BCDC61DE5836 /* Pods-UtiPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UtiPod_Example.modulemap"; sourceTree = "<group>"; };
+		DD5324358DB99EB9908C45F1386C858D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0186FD721535B73FC96E1F0E6227BFB /* Pods-UtiPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UtiPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E101D4E59E904A1CA86FC3562C8AF7C2 /* UtiPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UtiPod.framework; path = UtiPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F30375D4E3EF375272268E74157429 /* Pods_UtiPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UtiPod_Tests.framework; path = "Pods-UtiPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9818463560DD60D3536E8314E1F97DD /* Pods-UtiPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UtiPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FA5CE8E418977E6B9B8A8F59D8375FDC /* Pods-UtiPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UtiPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E3D5A79AADBDFF7C757566C0AB36A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B01C66F4A2FC29ACB088577863256A67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE2AA50C9BB162CF961C9387E82F1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4931C66B87941082B7E6242BA5D434E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D0E9743E330C0DCAE3402CAE5F6FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FF84D22329A72382653FF80FFDBD28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA60B94AC75B2B25D7A3C0D3388DB4E /* Pods-UtiPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8FEEE57AB3C76CF91D02817EED8B07E2 /* Info.plist */,
+				CFC1F5354EF7A73CE2F4BCDC61DE5836 /* Pods-UtiPod_Example.modulemap */,
+				1C7D55F9E5AE29596384B886CC7CD65D /* Pods-UtiPod_Example-acknowledgements.markdown */,
+				60E15A1E3F72AFE51097E217D2B82148 /* Pods-UtiPod_Example-acknowledgements.plist */,
+				A631D248244D7B1C6BE6BD71B76B520C /* Pods-UtiPod_Example-dummy.m */,
+				FA5CE8E418977E6B9B8A8F59D8375FDC /* Pods-UtiPod_Example-frameworks.sh */,
+				91D274FFEF4FB36B2008AA3DE86C8048 /* Pods-UtiPod_Example-resources.sh */,
+				46AA8206CFA2BE432DE64F7C6DBFF913 /* Pods-UtiPod_Example-umbrella.h */,
+				3B01BF1CB453AEBD1D0CC8D250805FB4 /* Pods-UtiPod_Example.debug.xcconfig */,
+				78FC53EE4ADFC8A37ECC15052F1D1CBC /* Pods-UtiPod_Example.release.xcconfig */,
+			);
+			name = "Pods-UtiPod_Example";
+			path = "Target Support Files/Pods-UtiPod_Example";
+			sourceTree = "<group>";
+		};
+		245FDEADAE0A8275D26C0F84847B1137 /* UtiPod */ = {
+			isa = PBXGroup;
+			children = (
+				3A10ACDF54635E9BAF72AF185422578C /* Classes */,
+			);
+			name = UtiPod;
+			path = UtiPod;
+			sourceTree = "<group>";
+		};
+		3A10ACDF54635E9BAF72AF185422578C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA814394E3C031CBA820369DD71989 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		66BB48D1A7FB2C83ED30EE2F921DA65F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E64E31EFD5F7097DE85C527A80B5C0F9 /* UtiPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6D1B045FBC3A693F36F14EA7A6BF5755 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5324358DB99EB9908C45F1386C858D /* Info.plist */,
+				335479EB342EF8663CA6A4924037BFC9 /* UtiPod.modulemap */,
+				4B2BD2580B67AA18706658D5C80271BF /* UtiPod.xcconfig */,
+				A9067300DB340E4A3E84705BB2CDA89A /* UtiPod-dummy.m */,
+				67C1EE7E1423E5AF8535A3A9CCB5BBC3 /* UtiPod-prefix.pch */,
+				4B478A7C69E0A1F3504844A6C89EBCA0 /* UtiPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UtiPod";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				66BB48D1A7FB2C83ED30EE2F921DA65F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A45609035667B1702B35B067C0892284 /* Products */,
+				90B541054D1CF149E651BB2DB7BECD72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		90B541054D1CF149E651BB2DB7BECD72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA60B94AC75B2B25D7A3C0D3388DB4E /* Pods-UtiPod_Example */,
+				DB8F715FB2834AA25EABEAAA5A8BF2C6 /* Pods-UtiPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A45609035667B1702B35B067C0892284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88DF71574EAD32AB91CE88D40CBCEC8 /* Pods_UtiPod_Example.framework */,
+				E3F30375D4E3EF375272268E74157429 /* Pods_UtiPod_Tests.framework */,
+				E101D4E59E904A1CA86FC3562C8AF7C2 /* UtiPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8F715FB2834AA25EABEAAA5A8BF2C6 /* Pods-UtiPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CDEEA8B33F82013E828F4977F1C8CC7 /* Info.plist */,
+				563CA59FFB53DCEA5ACF805E821D2401 /* Pods-UtiPod_Tests.modulemap */,
+				E0186FD721535B73FC96E1F0E6227BFB /* Pods-UtiPod_Tests-acknowledgements.markdown */,
+				134E214045FA27D6E2B0EFE077B3EF92 /* Pods-UtiPod_Tests-acknowledgements.plist */,
+				38400A7A3F80ECD977CCB9856AA1179E /* Pods-UtiPod_Tests-dummy.m */,
+				1380513D7668DA370DAA8AD6096C0109 /* Pods-UtiPod_Tests-frameworks.sh */,
+				1CACABCD8B54AB86C5CCD4E70FFB3B6A /* Pods-UtiPod_Tests-resources.sh */,
+				E9818463560DD60D3536E8314E1F97DD /* Pods-UtiPod_Tests-umbrella.h */,
+				20EBDCA59FFD794B73689BF33877AA49 /* Pods-UtiPod_Tests.debug.xcconfig */,
+				4F179922C28AE86B4528D86DBA02D7B4 /* Pods-UtiPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-UtiPod_Tests";
+			path = "Target Support Files/Pods-UtiPod_Tests";
+			sourceTree = "<group>";
+		};
+		E64E31EFD5F7097DE85C527A80B5C0F9 /* UtiPod */ = {
+			isa = PBXGroup;
+			children = (
+				6D1B045FBC3A693F36F14EA7A6BF5755 /* Support Files */,
+				245FDEADAE0A8275D26C0F84847B1137 /* UtiPod */,
+			);
+			name = UtiPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27D6BCD5F182936259E1E211904EA7D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818DDDABC8CC7B9C1D1C49C776B71B3A /* Pods-UtiPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41CAB173C3840A2757499562387241EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D1DFA2F521DA5D450D4C8E13754500 /* Pods-UtiPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8254B463845D516C97FDFAFD63515F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20114210A65144662962BDBE47DD0E19 /* UtiPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		046DAFBCAFF406FDA9E065F80B551179 /* Pods-UtiPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B8D3B420FB633F5A488E810170DA1C /* Build configuration list for PBXNativeTarget "Pods-UtiPod_Example" */;
+			buildPhases = (
+				26BDBAC4C7AA3850FED421464361A6AA /* Sources */,
+				1FE2AA50C9BB162CF961C9387E82F1EA /* Frameworks */,
+				41CAB173C3840A2757499562387241EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8CBE448CCCC96330C07F3300141BFA /* PBXTargetDependency */,
+			);
+			name = "Pods-UtiPod_Example";
+			productName = "Pods-UtiPod_Example";
+			productReference = C88DF71574EAD32AB91CE88D40CBCEC8 /* Pods_UtiPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26EF684639AC27A5446D2CF993CB2548 /* UtiPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3E2F1F12E526DBE2B329B62AD08E8C /* Build configuration list for PBXNativeTarget "UtiPod" */;
+			buildPhases = (
+				BA3AED3ABDC99AA61262D9821D307F4B /* Sources */,
+				17E3D5A79AADBDFF7C757566C0AB36A4 /* Frameworks */,
+				8254B463845D516C97FDFAFD63515F30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UtiPod;
+			productName = UtiPod;
+			productReference = E101D4E59E904A1CA86FC3562C8AF7C2 /* UtiPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DF349921B60028FEFA56221E8EB8F42 /* Pods-UtiPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985068FFC9EFEA80C572F63DC9C9888F /* Build configuration list for PBXNativeTarget "Pods-UtiPod_Tests" */;
+			buildPhases = (
+				F9B70304A06181EA9FEB66C308263383 /* Sources */,
+				53D0E9743E330C0DCAE3402CAE5F6FE5 /* Frameworks */,
+				27D6BCD5F182936259E1E211904EA7D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UtiPod_Tests";
+			productName = "Pods-UtiPod_Tests";
+			productReference = E3F30375D4E3EF375272268E74157429 /* Pods_UtiPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A45609035667B1702B35B067C0892284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046DAFBCAFF406FDA9E065F80B551179 /* Pods-UtiPod_Example */,
+				5DF349921B60028FEFA56221E8EB8F42 /* Pods-UtiPod_Tests */,
+				26EF684639AC27A5446D2CF993CB2548 /* UtiPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26BDBAC4C7AA3850FED421464361A6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8299F8F5CC85CBAD4569DB04B0E4119A /* Pods-UtiPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3AED3ABDC99AA61262D9821D307F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CA8EBDC1950E237E3E0EE678B36553 /* ReplaceMe.swift in Sources */,
+				CE029232CCE276BCC7336BC26D9CD503 /* UtiPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B70304A06181EA9FEB66C308263383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CB970677779C357EEF15DB16A0075D /* Pods-UtiPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8CBE448CCCC96330C07F3300141BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UtiPod;
+			target = 26EF684639AC27A5446D2CF993CB2548 /* UtiPod */;
+			targetProxy = AF478919AB7734AC6867C84D20C48F8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		033F70280709BCA28F59261DBCDCE922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20EBDCA59FFD794B73689BF33877AA49 /* Pods-UtiPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UtiPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UtiPod_Tests/Pods-UtiPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UtiPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4517FBBBED52FBFED2D4DF1487FEA0B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F179922C28AE86B4528D86DBA02D7B4 /* Pods-UtiPod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UtiPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UtiPod_Tests/Pods-UtiPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UtiPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		596C5F2E823A09BF586E9702B1B6EE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B01BF1CB453AEBD1D0CC8D250805FB4 /* Pods-UtiPod_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UtiPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UtiPod_Example/Pods-UtiPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UtiPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A990E7A61D1B20C53F04E9A7173E16D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2BD2580B67AA18706658D5C80271BF /* UtiPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UtiPod/UtiPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UtiPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UtiPod/UtiPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UtiPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86444C5A1225A1B408C8265792FA0B40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2BD2580B67AA18706658D5C80271BF /* UtiPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UtiPod/UtiPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UtiPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UtiPod/UtiPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UtiPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE60B0FE977690F7189BABF8F5B57B44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FC53EE4ADFC8A37ECC15052F1D1CBC /* Pods-UtiPod_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UtiPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UtiPod_Example/Pods-UtiPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UtiPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3E2F1F12E526DBE2B329B62AD08E8C /* Build configuration list for PBXNativeTarget "UtiPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A990E7A61D1B20C53F04E9A7173E16D /* Debug */,
+				86444C5A1225A1B408C8265792FA0B40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B8D3B420FB633F5A488E810170DA1C /* Build configuration list for PBXNativeTarget "Pods-UtiPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				596C5F2E823A09BF586E9702B1B6EE41 /* Debug */,
+				FE60B0FE977690F7189BABF8F5B57B44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985068FFC9EFEA80C572F63DC9C9888F /* Build configuration list for PBXNativeTarget "Pods-UtiPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033F70280709BCA28F59261DBCDCE922 /* Debug */,
+				4517FBBBED52FBFED2D4DF1487FEA0B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

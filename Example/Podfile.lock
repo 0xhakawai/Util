@@ -1,0 +1,16 @@
+PODS:
+  - UtiPod (0.1.0)
+
+DEPENDENCIES:
+  - UtiPod (from `../`)
+
+EXTERNAL SOURCES:
+  UtiPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UtiPod: db2087e3e2ee3d8c357463f19611321e76d99ced
+
+PODFILE CHECKSUM: 9677bb3897fe3d40b9a628048f9d3f0de76763e7
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,0 +1,6 @@
+framework module UtiPod {
+  umbrella header "UtiPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
